@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
 
 .div1 {
@@ -57,16 +56,17 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 30px;
 }
 
 .biografia {
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: center;
     max-width: 500px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 h3 {
@@ -80,8 +80,8 @@ p {
 
 .creditos {
     border-top: 1px solid #fff;
-    padding: 40px;
-    width: 700px;
+    padding-top: 20px;
+    width: 100%;
     font-size: 14px;
     font-weight: 300;
     text-align: center;
@@ -103,7 +103,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 430px) {
+@media (max-width: 430px) {
 
     .div2 {
         height: auto;
@@ -120,33 +120,17 @@ a:hover {
         line-height: 20px;
     }
 
-    .div3 {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 20px;
-    }
-
-    .biografia {
-        margin-top: 0;
-        margin-bottom: 30px;
-    }
-
     h3 {
         font-size: 30px;
         margin-bottom: 15px;
     }
 
     p {
-        
         font-size: 16px;
     }
 
-    .creditos {
-        padding: 25px;
-    }
-
     .creditos p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
 }
